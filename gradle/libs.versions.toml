@@ -1,0 +1,35 @@
+[versions]
+
+compose = "2024.12.01"
+compose-activity = "1.9.3"
+compose-lifecycle = "2.8.7"
+compose-coil = "2.7.0"
+core = "1.15.0"
+collections = "0.3.8"
+
+android = "8.7.3"
+kotlin = "2.0.21"
+
+sdk-min = "26"
+sdk-compile = "35"
+sdk-target = "35"
+java-target = "17"
+
+[libraries]
+
+compose = { group = "androidx.compose", name = "compose-bom", version.ref = "compose" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+compose-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "compose-activity" }
+compose-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "compose-lifecycle" }
+compose-coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "compose-coil" }
+core = { group = "androidx.core", name = "core-ktx", version.ref = "core" }
+collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable", version.ref = "collections" }
+
+[plugins]
+
+android = { id = "com.android.application", version.ref = "android" }
+kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
