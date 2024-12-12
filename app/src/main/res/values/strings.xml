@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">compose-pdf-render-search</string>
+
+    <!-- Main -->
+    <string name="choose_pdf">Choose PDF</string>
+    <string name="choose_another_pdf">Choose another PDF</string>
+    <string name="search_text">Search text</string>
+</resources>
